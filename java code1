@@ -6,14 +6,18 @@ public static void main(String[] args) {
         System.out.println("SUCCESSFUL");  
     }  
     else if(marks>=89){  
-        System.out.println("A");  
+        System.out.println("A  grade");  
     }
+     else if(marks>=95){  
+        System.out.println("+A  grade");  
+    }  
      else if(marks>=70){  
-        System.out.println("B");  
+        System.out.println("B  grade");  
     }  
      else if(marks>=50){  
-        System.out.println("D");  
+        System.out.println("D  grade");  
     }  
+   
     else{  
         System.out.println("UNSUCCESSFUL");  
     }  
